@@ -1,7 +1,7 @@
 import torch
 import unittest
 
-from utils import intersection_over_union, mean_average_precision, non_max_suppresion
+from src.utils import intersection_over_union, mean_average_precision, non_max_suppresion
 
 
 class TestIOUFunction(unittest.TestCase):
